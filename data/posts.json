@@ -1,44 +1,136 @@
 [
   {
+    "id": "post-1794004550144",
+    "title": "Bel",
+    "rawContent": "{Bel}",
+    "platforms": [
+      "instagram"
+    ],
+    "pillarId": "educativo",
+    "status": "programado",
+    "scheduledDate": "2026-11-07",
+    "scheduledTime": "11:00",
+    "createdAt": "2026-11-06T22:35:50.144Z",
+    "updatedAt": "2026-11-06T22:35:50.144Z"
+  },
+  {
+    "id": "post-1794003949542",
+    "title": "3 Errores o Claves Prácticas (Educativo)",
+    "rawContent": "La mayoría cree que para {propuesta_valor} hace falta complicarse.\n\nPero después de analizarlo con decenas de personas, descubrí estos 3 puntos clave:\n\n1. El primer error común: ignorar la constancia en pequeños hábitos diarios.\n2. La clave fundamental: priorizar calidad real antes que soluciones exprés.\n3. Lo que marca la diferencia: tener a mano alternativas confiables para momentos de prisa.\n\nEn {marca} diseñamos cada detalle pensando en {publico_objetivo}.\n\n¿Cuál de estos 3 puntos te cuesta más aplicar? Te leo en los comentarios 👇\n\n{cta_principal}\n{hashtags_oficiales}",
+    "platforms": [
+      "instagram",
+      "linkedin",
+      "facebook"
+    ],
+    "pillarId": "educativo",
+    "status": "programado",
+    "scheduledDate": "2026-11-06",
+    "scheduledTime": "11:00",
+    "createdAt": "2026-11-06T22:25:49.543Z",
+    "updatedAt": "2026-11-06T22:26:15.267Z"
+  },
+  {
     "id": "post-1",
     "title": "3 Hábitos para no quedarte sin energía a las 4 PM",
     "rawContent": "¿Te pasa que a las 4 de la tarde se te apaga la batería y no sabés por qué? 😴\n\nNo es falta de café, es cómo gestionás tu glucosa durante el día.\n\nEn {marca} te recomendamos estas 3 claves:\n1. Reemplazá el snack refinado por frutos secos activados.\n2. Mantené un vaso de agua cerca de tu teclado.\n3. Tomate 3 minutos de respiración consciente lejos del monitor.\n\n¿Querés que tu equipo rinda al 100%?\n👉 {cta_principal}\n\n{hashtags_oficiales}",
-    "platforms": ["instagram", "linkedin"],
+    "platforms": [
+      "instagram",
+      "linkedin"
+    ],
     "pillarId": "educativo",
     "status": "programado",
     "scheduledDate": "2026-11-06",
     "scheduledTime": "11:00",
     "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
     "notes": "Publicar junto a carrusel explicativo de 4 diapositivas en Instagram.",
-    "createdAt": "2026-11-06T10:00:00.000Z",
-    "updatedAt": "2026-11-06T10:00:00.000Z"
+    "createdAt": "2026-11-06T22:25:02.306Z",
+    "updatedAt": "2026-11-06T22:25:02.306Z"
   },
   {
     "id": "post-2",
     "title": "Lanzamiento: Nuevo Mix Cacao y Semillas con 15% OFF",
     "rawContent": "¡Por fin podemos contártelo! 🎉\n\nPresentamos nuestro nuevo Mix Cacao Intenso & Semillas Andinas en {marca}.\nPensado especialmente para quienes buscan {slogan}.\n\nAprovechá la preventa exclusiva para seguidores:\nUsá el código {codigo_descuento} y llevate un 15% de regalo en tu pack semanal.\n\n👉 {cta_principal}\n\n{hashtags_oficiales}",
-    "platforms": ["instagram", "facebook", "twitter"],
+    "platforms": [
+      "instagram",
+      "facebook",
+      "twitter"
+    ],
     "pillarId": "promocional",
     "status": "programado",
     "scheduledDate": "2026-11-08",
     "scheduledTime": "18:30",
     "imageUrl": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80",
     "notes": "Enviar también el newsletter con el cupón a la misma hora.",
-    "createdAt": "2026-11-06T10:00:00.000Z",
-    "updatedAt": "2026-11-06T10:00:00.000Z"
+    "createdAt": "2026-11-06T22:25:02.306Z",
+    "updatedAt": "2026-11-06T22:25:02.306Z"
   },
   {
     "id": "post-3",
     "title": "Cómo Martina ordenó sus colaciones en la oficina",
     "rawContent": "\"Antes de conocer {marca}, siempre sentía pesadez después de almorzar...\"\n\nMartina trabaja en marketing y sus días son a mil por hora. Nos contó cómo resolver el momento del snack le devolvió el enfoque por las tardes.\n\nEn {marca} creemos que comer bien tiene que ser práctico y sin fricción.\n\nLeé la historia completa y conocé la línea completa en el link de nuestra bio.\n🔗 {enlace_bio}\n\n{hashtags_oficiales}",
-    "platforms": ["linkedin", "instagram"],
+    "platforms": [
+      "linkedin",
+      "instagram"
+    ],
     "pillarId": "caso_exito",
     "status": "revisado",
     "scheduledDate": "2026-11-10",
     "scheduledTime": "09:15",
     "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
     "notes": "Mencionar a Martina en LinkedIn si autoriza la etiqueta.",
-    "createdAt": "2026-11-06T10:00:00.000Z",
-    "updatedAt": "2026-11-06T10:00:00.000Z"
+    "createdAt": "2026-11-06T22:25:02.306Z",
+    "updatedAt": "2026-11-06T22:25:02.306Z"
+  },
+  {
+    "id": "post-4",
+    "title": "Detrás de escena: El proceso de deshidratado a baja temperatura",
+    "rawContent": "Así es una mañana en nuestro taller de producción en {marca} 🍃\n\nPara que la fruta conserve sus vitaminas y sabor original, la deshidratamos lentamente durante 14 horas a menos de 45°C.\n\nCero químicos, cero aditivos. Solo naturaleza pura.\n\n¿Qué fruta te gustaría que sumemos a nuestro próximo mix? ¡Comentanos abajo!\n\n{hashtags_oficiales}",
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
+    "pillarId": "detras_escena",
+    "status": "borrador",
+    "scheduledDate": "2026-11-12",
+    "scheduledTime": "14:00",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    "notes": "Ideal para subir también en formato Reel con música instrumental tranquila.",
+    "createdAt": "2026-11-06T22:25:02.306Z",
+    "updatedAt": "2026-11-06T22:25:02.306Z"
+  },
+  {
+    "id": "post-5",
+    "title": "Encuesta: ¿Team dulce o Team salado para cortar la tarde?",
+    "rawContent": "Pregunta rápida para cerrar la semana con la comunidad de {marca}:\n\nCuando llega la pausa de las 4 PM, ¿tu cuerpo te pide algo dulce o algo salado?\n\n🍫 Comentá con un emoji dulce si elegís cacao o frutas.\n🥜 Comentá con un emoji salado si preferís frutos secos con sal marina.\n\n¡Lxs leemos en comentarios! 👇\n\n{hashtags_oficiales}",
+    "platforms": [
+      "instagram",
+      "threads"
+    ],
+    "pillarId": "comunidad",
+    "status": "idea",
+    "scheduledDate": "2026-11-14",
+    "scheduledTime": "16:00",
+    "imageUrl": "https://images.unsplash.com/photo-1505253758473-96b3d5fe926c?auto=format&fit=crop&w=800&q=80",
+    "notes": "Publicar sticker interactivo de encuesta en Instagram Stories en simultáneo.",
+    "createdAt": "2026-11-06T22:25:02.306Z",
+    "updatedAt": "2026-11-06T22:25:02.306Z"
+  },
+  {
+    "id": "post-6",
+    "title": "El mito de las barras de cereal industriales",
+    "rawContent": "La mayoría de las barras de cereal del supermercado tienen más azúcar que una golosina tradicional.\n\nRevisar la lista de ingredientes es el mejor acto de autocuidado: si el primer ingrediente es jarabe de maíz, no es nutrición, es postre.\n\nEn {marca} nuestra etiqueta tiene solo 4 ingredientes y podés leerlos sin diccionario químico.\n\n{cta_principal}\n{hashtags_oficiales}",
+    "platforms": [
+      "twitter",
+      "threads",
+      "linkedin"
+    ],
+    "pillarId": "noticia",
+    "status": "programado",
+    "scheduledDate": "2026-11-16",
+    "scheduledTime": "12:30",
+    "imageUrl": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80",
+    "notes": "Ideal para generar debate constructivo sobre etiquetado frontal.",
+    "createdAt": "2026-11-06T22:25:02.306Z",
+    "updatedAt": "2026-11-06T22:25:02.306Z"
   }
 ]
