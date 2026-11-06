@@ -1,0 +1,44 @@
+[
+  {
+    "id": "post-1",
+    "title": "3 Hábitos para no quedarte sin energía a las 4 PM",
+    "rawContent": "¿Te pasa que a las 4 de la tarde se te apaga la batería y no sabés por qué? 😴\n\nNo es falta de café, es cómo gestionás tu glucosa durante el día.\n\nEn {marca} te recomendamos estas 3 claves:\n1. Reemplazá el snack refinado por frutos secos activados.\n2. Mantené un vaso de agua cerca de tu teclado.\n3. Tomate 3 minutos de respiración consciente lejos del monitor.\n\n¿Querés que tu equipo rinda al 100%?\n👉 {cta_principal}\n\n{hashtags_oficiales}",
+    "platforms": ["instagram", "linkedin"],
+    "pillarId": "educativo",
+    "status": "programado",
+    "scheduledDate": "2026-11-06",
+    "scheduledTime": "11:00",
+    "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+    "notes": "Publicar junto a carrusel explicativo de 4 diapositivas en Instagram.",
+    "createdAt": "2026-11-06T10:00:00.000Z",
+    "updatedAt": "2026-11-06T10:00:00.000Z"
+  },
+  {
+    "id": "post-2",
+    "title": "Lanzamiento: Nuevo Mix Cacao y Semillas con 15% OFF",
+    "rawContent": "¡Por fin podemos contártelo! 🎉\n\nPresentamos nuestro nuevo Mix Cacao Intenso & Semillas Andinas en {marca}.\nPensado especialmente para quienes buscan {slogan}.\n\nAprovechá la preventa exclusiva para seguidores:\nUsá el código {codigo_descuento} y llevate un 15% de regalo en tu pack semanal.\n\n👉 {cta_principal}\n\n{hashtags_oficiales}",
+    "platforms": ["instagram", "facebook", "twitter"],
+    "pillarId": "promocional",
+    "status": "programado",
+    "scheduledDate": "2026-11-08",
+    "scheduledTime": "18:30",
+    "imageUrl": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80",
+    "notes": "Enviar también el newsletter con el cupón a la misma hora.",
+    "createdAt": "2026-11-06T10:00:00.000Z",
+    "updatedAt": "2026-11-06T10:00:00.000Z"
+  },
+  {
+    "id": "post-3",
+    "title": "Cómo Martina ordenó sus colaciones en la oficina",
+    "rawContent": "\"Antes de conocer {marca}, siempre sentía pesadez después de almorzar...\"\n\nMartina trabaja en marketing y sus días son a mil por hora. Nos contó cómo resolver el momento del snack le devolvió el enfoque por las tardes.\n\nEn {marca} creemos que comer bien tiene que ser práctico y sin fricción.\n\nLeé la historia completa y conocé la línea completa en el link de nuestra bio.\n🔗 {enlace_bio}\n\n{hashtags_oficiales}",
+    "platforms": ["linkedin", "instagram"],
+    "pillarId": "caso_exito",
+    "status": "revisado",
+    "scheduledDate": "2026-11-10",
+    "scheduledTime": "09:15",
+    "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
+    "notes": "Mencionar a Martina en LinkedIn si autoriza la etiqueta.",
+    "createdAt": "2026-11-06T10:00:00.000Z",
+    "updatedAt": "2026-11-06T10:00:00.000Z"
+  }
+]

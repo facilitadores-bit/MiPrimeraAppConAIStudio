@@ -1,0 +1,80 @@
+{
+  "id": "brand-ecovita",
+  "name": "EcoVita Snacks",
+  "tagline": "Nutrición consciente para jornadas de alto rendimiento",
+  "handle": "@ecovitasnacks",
+  "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=300&q=80",
+  "primaryColor": "#059669",
+  "secondaryColor": "#d97706",
+  "variables": [
+    {
+      "key": "marca",
+      "label": "Nombre de la Marca",
+      "value": "EcoVita",
+      "description": "Nombre comercial utilizado en los textos"
+    },
+    {
+      "key": "slogan",
+      "label": "Slogan o Mensaje Clave",
+      "value": "Energía 100% natural sin picos de azúcar",
+      "description": "Lema que refuerza la promesa de valor"
+    },
+    {
+      "key": "publico_objetivo",
+      "label": "Público Objetivo",
+      "value": "Profesionales, deportistas y personas con poco tiempo que cuidan su alimentación",
+      "description": "A quién le hablamos en cada publicación"
+    },
+    {
+      "key": "propuesta_valor",
+      "label": "Propuesta de Valor",
+      "value": "Snacks artesanales con ingredientes limpios, sin conservantes y listos para llevar"
+    },
+    {
+      "key": "cta_principal",
+      "label": "Llamada a la Acción (CTA)",
+      "value": "Conocé nuestra variedad y pedí tu pack con 15% OFF en el link de nuestra bio",
+      "description": "Llamado a la acción predeterminado para cierres"
+    },
+    {
+      "key": "enlace_bio",
+      "label": "Enlace de la Bio",
+      "value": "ecovita.shop/comunidad",
+      "description": "Dirección web o landing a promocionar"
+    },
+    {
+      "key": "codigo_descuento",
+      "label": "Código de Descuento Activo",
+      "value": "VIDASANA15",
+      "description": "Cupón temporal o permanente para promociones"
+    },
+    {
+      "key": "contacto_whatsapp",
+      "label": "WhatsApp de Atención",
+      "value": "+54 9 11 5520-8840",
+      "description": "Línea de consultas o pedidos directos"
+    },
+    {
+      "key": "hashtags_oficiales",
+      "label": "Hashtags Oficiales",
+      "value": "#EcoVitaSnacks #ComidaReal #EnergiaLimpia #SnacksSaludables",
+      "description": "Conjunto de etiquetas que identifican la marca"
+    }
+  ],
+  "rules": {
+    "grammaticalPerson": "tu",
+    "maxEmojisPerPost": 4,
+    "requireHook": true,
+    "requireCTA": true,
+    "requireBrandHashtags": true,
+    "preferredSentenceLength": "corta",
+    "bannedWords": [
+      "milagroso",
+      "solución definitiva",
+      "100% garantizado",
+      "gratis sin trampa"
+    ],
+    "keyBrandHashtags": "#EcoVitaSnacks #ComidaReal",
+    "notes": "Priorizar siempre párrafos de máximo 2 líneas para lectura fluida en móviles. Usar saltos de línea limpios. Tono cercano, optimista y sin tecnicismos difíciles."
+  }
+}

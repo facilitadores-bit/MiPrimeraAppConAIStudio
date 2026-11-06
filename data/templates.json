@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tpl-edu-3-tips",
+    "title": "3 Errores o Claves Prácticas (Educativo)",
+    "pillarId": "educativo",
+    "defaultPlatforms": ["instagram", "linkedin"],
+    "description": "Estructura comprobada: Gancho provocador + 3 puntos concisos + Cierre con llamado a guardar.",
+    "contentPattern": "La mayoría cree que para {propuesta_valor} hace falta complicarse.\n\nPero después de analizarlo con decenas de personas, descubrí estos 3 puntos clave:\n\n1. El primer error común: ignorar la constancia en pequeños hábitos diarios.\n2. La clave fundamental: priorizar calidad real antes que soluciones exprés.\n3. Lo que marca la diferencia: tener a mano alternativas confiables para momentos de prisa.\n\nEn {marca} diseñamos cada detalle pensando en {publico_objetivo}.\n\n¿Cuál de estos 3 puntos te cuesta más aplicar? Te leo en los comentarios 👇\n\n{cta_principal}\n{hashtags_oficiales}",
+    "suggestedHashtags": "{hashtags_oficiales}",
+    "callToActionPattern": "{cta_principal}"
+  },
+  {
+    "id": "tpl-promo-oferta",
+    "title": "Lanzamiento / Promoción con Beneficio Inmediato",
+    "pillarId": "promocional",
+    "defaultPlatforms": ["instagram", "facebook", "twitter"],
+    "description": "Foco en resolver un dolor concreto con oferta especial y código de descuento.",
+    "contentPattern": "¿Te pasa que a las 4 de la tarde te quedas sin energía y recurrís a lo primero que encontrás?\n\nEn {marca} creamos la solución: {slogan}.\n\n✨ Lo que vas a disfrutar:\n• Ingredientes 100% seleccionados y honestos.\n• Sin conservantes artificiales ni azúcar añadida.\n• Empaque práctico para llevar en tu mochila o cartera.\n\n🎁 BENEFICIO EXCLUSIVO PARA NUESTRA COMUNIDAD:\nUsá el código: {codigo_descuento} y obtené un descuento especial en tu primer pedido.\n\n👉 {cta_principal}\n\n{hashtags_oficiales}",
+    "suggestedHashtags": "{hashtags_oficiales}",
+    "callToActionPattern": "{cta_principal}"
+  },
+  {
+    "id": "tpl-caso-exito",
+    "title": "Transformación Real / Caso de Éxito",
+    "pillarId": "caso_exito",
+    "defaultPlatforms": ["linkedin", "instagram"],
+    "description": "Muestra el Antes vs Después de un cliente sin exageraciones, con foco en el resultado.",
+    "contentPattern": "\"Antes de conocer {marca}, siempre sentía pesadez después de almorzar en la oficina...\"\n\nAsí nos contaba una persona de nuestra comunidad hace un mes.\n\nEl problema no era la falta de voluntad: era no tener a mano opciones reales para nutrirse en medio de reuniones consecutivas.\n\nHoy, gracias a nuestro pack semanal, logró:\n✅ Mantener su concentración durante toda la jornada.\n✅ Ahorrar tiempo diario sin descuidar su bienestar.\n✅ Disfrutar de algo rico y saludable sin culpa.\n\nEn {marca} no prometemos milagros: ofrecemos {propuesta_valor}.\n\n¿Querés dar este mismo paso?\n🔗 {cta_principal}\n\n{hashtags_oficiales}",
+    "suggestedHashtags": "{hashtags_oficiales}",
+    "callToActionPattern": "{cta_principal}"
+  },
+  {
+    "id": "tpl-detras-escena",
+    "title": "Detrás de Escena / Cómo lo Hacemos",
+    "pillarId": "detras_escena",
+    "defaultPlatforms": ["instagram", "tiktok"],
+    "description": "Humaniza la marca mostrando el proceso de elaboración o la elección de insumos.",
+    "contentPattern": "Esto es lo que pasa antes de que tu pedido de {marca} llegue a tu puerta 👀\n\nMuchas personas nos preguntan cómo logramos que nuestros productos se mantengan tan frescos sin usar conservantes.\n\nEl secreto está en tres pasos que nunca negociamos:\n1. Selección directa de productores locales que comparten nuestros valores.\n2. Procesamiento a baja temperatura para preservar nutrientes.\n3. Empaque sellado al vacío en el mismo día.\n\nCuidar los detalles es nuestra forma de respetar tu confianza.\n\n¿Te gustaría que en el próximo video mostremos cómo elegimos cada ingrediente?\n\n{hashtags_oficiales}",
+    "suggestedHashtags": "{hashtags_oficiales}",
+    "callToActionPattern": "{cta_principal}"
+  },
+  {
+    "id": "tpl-comunidad-pregunta",
+    "title": "Pregunta Disparadora / Encuesta a la Comunidad",
+    "pillarId": "comunidad",
+    "defaultPlatforms": ["instagram", "threads", "twitter"],
+    "description": "Ideal para disparar el algoritmo con comentarios y conocer mejor a la audiencia.",
+    "contentPattern": "Pregunta sincera para nuestra comunidad de {marca}:\n\nSi pudieras cambiar solo 1 hábito de tus mañanas a partir de mañana, ¿cuál elegirías?\n\nA) Desayunar con calma y sin mirar pantallas.\nB) Entrenar o caminar 20 minutos antes de arrancar.\nC) Organizar tus snacks del día para no improvisar.\n\nDejá tu letra en los comentarios (A, B o C) y contanos tu mayor obstáculo 👇\n\n{hashtags_oficiales}",
+    "suggestedHashtags": "{hashtags_oficiales}",
+    "callToActionPattern": "Dejá tu letra en los comentarios 👇"
+  },
+  {
+    "id": "tpl-x-thread-opener",
+    "title": "Apertura de Hilo / Post Contundente para X / Twitter",
+    "pillarId": "noticia",
+    "defaultPlatforms": ["twitter", "threads"],
+    "description": "Directo al grano, pensado para retención y lectura ágil con formato de lista.",
+    "contentPattern": "Dejé de consumir ultraprocesados en el trabajo hace 6 meses.\n\nEstos fueron los 3 cambios que noté en mi energía y concentración:\n\n(Abro hilo de lo que aprendimos en {marca} 🧵👇)",
+    "suggestedHashtags": "{hashtags_oficiales}",
+    "callToActionPattern": "(Abro hilo 🧵👇)"
+  }
+]

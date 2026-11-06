@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plus, Download, Sliders, Moon, Sun, Sparkles } from 'lucide-react';
+import { Plus, Download, Sliders, Moon, Sun, Sparkles, GitCommit } from 'lucide-react';
 import { BrandProfile } from '../types';
 
 interface HeaderProps {
@@ -8,6 +8,7 @@ interface HeaderProps {
   brand: BrandProfile;
   onNewPost: () => void;
   onOpenExportImport: () => void;
+  onOpenGitSync: () => void;
   isDarkMode: boolean;
   onToggleDarkMode: () => void;
 }
@@ -18,6 +19,7 @@ export const Header: React.FC<HeaderProps> = ({
   brand,
   onNewPost,
   onOpenExportImport,
+  onOpenGitSync,
   isDarkMode,
   onToggleDarkMode,
 }) => {
@@ -104,7 +106,7 @@ export const Header: React.FC<HeaderProps> = ({
           </nav>
 
           {/* Zone 3: Primary Action & Utilities */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
             <button
               onClick={onToggleDarkMode}
               title={isDarkMode ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
@@ -119,6 +121,15 @@ export const Header: React.FC<HeaderProps> = ({
               className="p-2 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             >
               <Download className="w-4 h-4" />
+            </button>
+
+            <button
+              onClick={onOpenGitSync}
+              title="Guardar y hacer commit a Git (data/*.json)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 text-xs sm:text-sm font-semibold rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-750 transition-colors shadow-2xs whitespace-nowrap shrink-0"
+            >
+              <GitCommit className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+              <span className="hidden sm:inline">Commit a Git</span>
             </button>
 
             <button

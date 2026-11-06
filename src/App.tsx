@@ -18,6 +18,8 @@ import { TemplatesView } from './components/TemplatesView';
 import { BrandKitView } from './components/BrandKitView';
 import { PostEditorModal } from './components/PostEditorModal';
 import { ExportImportModal } from './components/ExportImportModal';
+import { GitHubCommitModal } from './components/GitHubCommitModal';
+import { getStoredGitHubConfig, loadDataFromRepository } from './utils/githubSync';
 
 export default function App() {
   const [brand, setBrand] = useState<BrandProfile>(() => loadBrandProfile());
@@ -37,6 +39,7 @@ export default function App() {
 
   // Backup / Export Modal State
   const [isExportImportOpen, setIsExportImportOpen] = useState(false);
+  const [isGitModalOpen, setIsGitModalOpen] = useState(false);
 
   // Toast feedback
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -45,6 +48,41 @@ export default function App() {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(null), 2500);
   };
+
+  // Attempt to load committed data from repository JSON on startup if localStorage is empty
+  useEffect(() => {
+    const checkRepoData = async () => {
+      try {
+        const cfg = getStoredGitHubConfig();
+        const repoData = await loadDataFromRepository(cfg);
+        if (repoData.templates && repoData.templates.length > 0) {
+          // If local storage was default, adopt repository templates
+          const localTemplates = localStorage.getItem('socialharmony_templates');
+          if (!localTemplates) {
+            setTemplates(repoData.templates);
+            saveTemplates(repoData.templates);
+          }
+        }
+        if (repoData.posts && repoData.posts.length > 0) {
+          const localPosts = localStorage.getItem('socialharmony_posts');
+          if (!localPosts) {
+            setPosts(repoData.posts);
+            savePosts(repoData.posts);
+          }
+        }
+        if (repoData.brand) {
+          const localBrand = localStorage.getItem('socialharmony_brand_profile');
+          if (!localBrand) {
+            setBrand(repoData.brand);
+            saveBrandProfile(repoData.brand);
+          }
+        }
+      } catch (err) {
+        console.warn('Silent repo data fetch info:', err);
+      }
+    };
+    checkRepoData();
+  }, []);
 
   // Sync dark mode class with <html>
   useEffect(() => {
@@ -197,6 +235,7 @@ export default function App() {
         brand={brand}
         onNewPost={() => handleOpenNewPost()}
         onOpenExportImport={() => setIsExportImportOpen(true)}
+        onOpenGitSync={() => setIsGitModalOpen(true)}
         isDarkMode={isDarkMode}
         onToggleDarkMode={() => setIsDarkMode(!isDarkMode)}
       />
@@ -307,6 +346,30 @@ export default function App() {
         templates={templates}
         pillars={pillars}
         onImportWorkspace={handleImportWorkspace}
+      />
+
+      {/* GitHub Commit & Sync Modal */}
+      <GitHubCommitModal
+        isOpen={isGitModalOpen}
+        onClose={() => setIsGitModalOpen(false)}
+        brand={brand}
+        posts={posts}
+        templates={templates}
+        onDataLoadedFromGit={(data) => {
+          if (data.brand) {
+            setBrand(data.brand);
+            saveBrandProfile(data.brand);
+          }
+          if (data.posts) {
+            setPosts(data.posts);
+            savePosts(data.posts);
+          }
+          if (data.templates) {
+            setTemplates(data.templates);
+            saveTemplates(data.templates);
+          }
+          showToast('Datos sincronizados desde GitHub');
+        }}
       />
 
       {/* Toast alert popup */}
