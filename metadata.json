@@ -1,0 +1,6 @@
+{
+  "name": "SocialHarmony - Organizador & Guía de Coherencia Social",
+  "description": "Organizador de publicaciones para redes sociales con estilo unificado, plantillas con parámetros dinámicos, calendario de coherencia de marca y vista previa multired sin depender de APIs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
