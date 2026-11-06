@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SocialHarmony - Organizador & Guía de Coherencia Social</title>
+    <meta name="description" content="Organizador de publicaciones para redes sociales con estilo unificado, plantillas con parámetros dinámicos, calendario de coherencia de marca y vista previa multired sin depender de APIs." />
+    <meta property="og:title" content="SocialHarmony - Organizador & Guía de Coherencia Social" />
+    <meta property="og:description" content="Organizador de publicaciones para redes sociales con estilo unificado, plantillas con parámetros dinámicos, calendario de coherencia de marca y vista previa multired sin depender de APIs." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=DM+Sans:ital,opsz,wght@0,9..40,300..800;1,9..40,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./assets/bundle.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/bundle.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Static runner for GitHub Pages (when served without Vite dev server) -->
+    <script>
+      if (window.location.hostname.indexOf('github.io') !== -1 || window.location.protocol === 'file:') {
+        var s = document.createElement('script');
+        s.type = 'module';
+        s.src = './dist/assets/bundle.js';
+        s.onerror = function() {
+          var s2 = document.createElement('script');
+          s2.type = 'module';
+          s2.src = './assets/bundle.js';
+          document.body.appendChild(s2);
+        };
+        document.body.appendChild(s);
+
+        var c = document.createElement('link');
+        c.rel = 'stylesheet';
+        c.href = './dist/assets/bundle.css';
+        c.onerror = function() {
+          var c2 = document.createElement('link');
+          c2.rel = 'stylesheet';
+          c2.href = './assets/bundle.css';
+          document.head.appendChild(c2);
+        };
+        document.head.appendChild(c);
+      }
+    </script>
+
+    <!-- Vite development entry point for AI Studio -->
+  </body>
+</html>
+
